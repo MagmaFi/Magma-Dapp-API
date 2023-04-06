@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.eggs/
+*.egg-info/
+.coverage
+build
+dist
+env
+.env*
+
+# Virtual environment
+.venv
+
+# IDE
+.idea
