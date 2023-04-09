@@ -4,7 +4,7 @@ ENV POETRY_HOME=/etc/poetry
 ENV POETRY_VIRTUALENVS_CREATE=false
 
 RUN apt-get update
-RUN apt-get install -y --no-install-recommends gcc g++ libssl-dev libev-dev curl
+RUN apt-get install -y --no-install-recommends gcc g++ libssl-dev libev-dev curl git
 RUN apt-get clean
 
 RUN curl -sSL https://install.python-poetry.org | python -
